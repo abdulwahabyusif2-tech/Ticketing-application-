@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TicketQ - Book Event Tickets</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/">🎟️ TicketQ</a>
+    <nav><a href="#/">Events</a><a href="#/tickets">My tickets <span id="myCount" class="badge">0</span></a></nav>
+  </header>
+  <main id="app"></main>
+  <dialog id="dlg"></dialog>
+  <div id="toasts" aria-live="polite"></div>
+  <footer>Demo app: no real payments. Waiting rooms use a linked-list queue (<code>js/queue.js</code>).</footer>
+  <script src="js/queue.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
